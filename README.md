@@ -71,3 +71,46 @@ export default defineConfig([
   },
 ])
 ```
+
+## Instrucciones para configurar y ejecutar el proyecto
+
+Estas instrucciones están pensadas para Windows (PowerShell). Ajusta los comandos si usas otra shell o sistema operativo.
+
+Requisitos previos:
+- Node.js (v18+ recomendado) instalado: https://nodejs.org/
+- pnpm instalado globalmente (opcional pero recomendado): `npm install -g pnpm`
+- Git (para clonar el repositorio)
+
+Pasos rápidos:
+
+1. Clonar el repositorio
+
+```powershell
+git clone https://github.com/mvblanco99/task-flow-app-frontend.git
+cd task-flow-app-frontend
+```
+
+2. Instalar dependencias
+
+```powershell
+pnpm install
+```
+
+3. Ejecutar en modo desarrollo (con HMR)
+
+```powershell
+pnpm dev
+```
+
+4. Abrir la app en el navegador
+
+Por defecto Vite mostrará la URL local en la salida del comando (ej. `http://localhost:5173`). Ábrela en tu navegador.
+
+5. Generar build de producción
+
+```powershell
+pnpm build
+```
+
+
+
